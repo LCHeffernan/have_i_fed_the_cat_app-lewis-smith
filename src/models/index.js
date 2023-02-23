@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const catModel = require('./cats');
+const CatModel = require('./cats');
 
 const setUpDatabase = () => {
     const connection = new Sequelize("have_i_fed_the_cat_app", "postgres", "password", {
